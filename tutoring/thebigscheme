@@ -1,0 +1,37 @@
+Examen 1h 30' - 30' corectarea
+https://bitbucket.org/ccartas/
+
+
+Subiectul 1 
+HTML - tag-uri (html cheatsheet)
+
+JSON - 
+
+CSS - margine, border, padding
+    - display - flex, grid
+    - pozitie relativa, absoluta, fixa
+    - proprietati 
+    - selectori
+    - grid vs flexbox
+    
+JS - async, callback, promises, sync, await, closures
+
+Subiectul 2
+JS
+
+Subiectul 3
+Rest API node js express -> accesare body request, path si query params
+    - path param: /home/:product (ex: /home/iphone) => accesez proprietatea req.param.product
+    - query param: /home/smartphone?id=15 => req.query.id
+    - posibil subiect de sequelize - crearea entitati care sa respecte anumite proprietati
+    
+Subiectul 4 - React
+    - O varianta: se da o componenta app.js. In render un template de jsx si sa facem un formular   
+    - Sau corectare cod existent
+    - refolosire componente
+    - lista sau formular
+    - extragere componente din app.js
+    
+    
+nvm install 10.13.0
+npm install

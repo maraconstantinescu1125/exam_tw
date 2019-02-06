@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type="text/javascript">
+            // https://jsonplaceholder.typicode.com/todos
+            
+            function addRow(){
+                axios.get('https://jsonplaceholder.typicode.com/todos').then(function(response){
+                    
+                    for(var item of response.data){
+                        console.log(item.title)
+                        var table  = document.querySelector('table');
+                        var row = document.createElement('tr');
+                        row.innerHTML = item.title;
+                        document.querySelector('table').appendChild(item.title);
+                    };
+                })
+            }
+            
+            document.addEventListener("DOMContentLoaded", addRow);
+        </script>
+    </head>
+    <body>
+        <table id=content></table>
+    </body>
+</html>

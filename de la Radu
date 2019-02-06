@@ -1,0 +1,7 @@
+app.get('/salaries', (req, res) => {
+    let S=0;
+    app.locals.employees.forEach(element => {
+        S=S+element.salary;
+    });
+    res.status(200).json({"avgSalary":S/app.locals.employees});
+});https://github.com/FineUploader/fine-uploader/issues/187

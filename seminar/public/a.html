@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/a.css" type="text/css" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+        <script type="text/javascript">
+        window.onload = () => {
+            const server = "https://floriniutes-floriniutes.c9users.io"
+            let myDiv = document.getElementById('message')
+            axios.get(server + '/ping').then((response) => {
+                myDiv.innerHTML = 'server said: ' + response.data
+            })
+            console.log(respons)
+            myDiv.innerHTML = 'hello there!'
+        }
+        </script>
+    </head>
+    <body>
+    <h1>i am a little heading</h1>
+    this is some text
+    <div id="message"></div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+input[type="text"]{
+    color: blue;
+}
+
+input[type="button"]{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+input[class="excepted"]{
+    color: black;
+}
+
+label{
+    background-color: orange;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}

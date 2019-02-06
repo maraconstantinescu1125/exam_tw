@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar{
+    width: 30%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+}
+
+.view{
+    width: 70%;
+    height: 100%;
+    background-color: lightgray;
+    float: left;
+    text-align: center;
+    line-height: 100vh;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sidebar-item{
+    font-weight: bold;
+    font-size: 40px;
+    height: 33.33%;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid orange;
+    line-height: 30vh;
+}
+
+.sidebar-item:hover{
+    background-color: orange;
+    border: dashed tomato;
+}

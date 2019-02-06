@@ -1,0 +1,13 @@
+img{
+    height: 100px;
+    width: 150px;
+    border: 1px dashed red;
+    transition: 5s;
+}
+
+img:hover{
+    height: 400px;
+    width: 600px;
+    transition: 5s;
+    border: 5px dashed red;
+}
